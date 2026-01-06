@@ -1,0 +1,79 @@
+# ================================
+# Python Bytecode & Cache
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ================================
+# Virtual Environments
+# ================================
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+**/pyvenv.cfg
+**/bin/
+**/Scripts/
+**/Lib/
+
+# ================================
+# Data files (ignore large datasets)
+# ================================
+data/
+datasets/
+*.tsv
+*.hdf5
+*.parquet
+*.npy
+*.npz
+*.pkl
+*.pt
+*.pth
+*.ckpt
+
+# ================================
+# Model outputs / checkpoints / logs
+# ================================
+models/
+checkpoints/
+logs/
+*.h5
+*.ckpt
+*.pt
+
+# ================================
+# Jupyter Notebook checkpoints
+# ================================
+.ipynb_checkpoints/
+
+# ================================
+# IDE / editor files
+# ================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ================================
+# System files
+# ================================
+.DS_Store
+*.log
+*.tmp
+*.bak
+
+# ================================
+# Package / dependency files (optional)
+# ================================
+*.egg-info/
+.eggs/
+dist/
+build/
+__pypackages__/
+
+# ================================
+# Misc
+# ================================
+*.swp
